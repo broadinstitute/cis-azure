@@ -1,0 +1,6 @@
+subscription_id      = "5374e8d3-9703-4a09-ac4a-af6f9f5c013b"
+location             = "eastus"
+resource_group_name  = "cis-azure-rg"
+function_app_name    = "cis-azure-report-z7teu8"
+storage_account_name = "cisazurefnz7teu8"
+service_plan_name    = "EastUSLinuxDynamicPlan"

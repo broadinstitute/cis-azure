@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+local.settings.json
+MicrosoftDefenderForCloudRegulatoryCompliance*.csv
+docs/**/MicrosoftDefenderForCloudRegulatoryCompliance_*.csv
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/*.tfplan

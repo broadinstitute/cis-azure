@@ -1,0 +1,128 @@
+{
+ "standard": "CIS-Azure-Foundations-v2.0.0",
+ "controls": [
+  {
+   "control": {
+    "id": "/subscriptions/5374e8d3-9703-4a09-ac4a-af6f9f5c013b/providers/Microsoft.Security/regulatoryComplianceStandards/CIS-Azure-Foundations-v2.0.0/regulatoryComplianceControls/1.23",
+    "name": "1.23",
+    "type": "Microsoft.Security/regulatoryComplianceStandards/regulatoryComplianceControls",
+    "properties": {
+     "description": "Ensure That No Custom Subscription Administrator Roles Exist",
+     "state": "Passed",
+     "passedAssessments": 1,
+     "failedAssessments": 0,
+     "skippedAssessments": 0
+    }
+   },
+   "assessments": [
+    {
+     "id": "/subscriptions/5374e8d3-9703-4a09-ac4a-af6f9f5c013b/providers/Microsoft.Security/regulatoryComplianceStandards/CIS-Azure-Foundations-v2.0.0/regulatoryComplianceControls/1.23/regulatoryComplianceAssessments/0e2a0165-2759-3e4c-d130-f9f02a695923",
+     "name": "0e2a0165-2759-3e4c-d130-f9f02a695923",
+     "type": "Microsoft.Security/regulatoryComplianceStandards/regulatoryComplianceControls/regulatoryComplianceAssessments",
+     "properties": {
+      "description": "Audit usage of custom RBAC roles",
+      "state": "Passed",
+      "scope": "Unknown",
+      "passedResources": 0,
+      "failedResources": 0,
+      "skippedResources": 0,
+      "assessmentType": "AssessmentResult",
+      "assessmentDetailsLink": "https://portal.azure.com/#blade/Microsoft_Azure_Security/RecommendationsBlade/assessmentKey/0e2a0165-2759-3e4c-d130-f9f02a695923/initiativeId/CIS-Azure-Foundations-v2.0.0"
+     }
+    }
+   ]
+  },
+  {
+   "control": {
+    "id": "/subscriptions/5374e8d3-9703-4a09-ac4a-af6f9f5c013b/providers/Microsoft.Security/regulatoryComplianceStandards/CIS-Azure-Foundations-v2.0.0/regulatoryComplianceControls/1.5",
+    "name": "1.5",
+    "type": "Microsoft.Security/regulatoryComplianceStandards/regulatoryComplianceControls",
+    "properties": {
+     "description": "Ensure Guest Users Are Reviewed on a Regular Basis",
+     "state": "Passed",
+     "passedAssessments": 3,
+     "failedAssessments": 0,
+     "skippedAssessments": 0
+    }
+   },
+   "assessments": [
+    {
+     "id": "/subscriptions/5374e8d3-9703-4a09-ac4a-af6f9f5c013b/providers/Microsoft.Security/regulatoryComplianceStandards/CIS-Azure-Foundations-v2.0.0/regulatoryComplianceControls/1.5/regulatoryComplianceAssessments/009678ce-adce-4c94-9cc8-cfc2bd0c6a06",
+     "name": "009678ce-adce-4c94-9cc8-cfc2bd0c6a06",
+     "type": "Microsoft.Security/regulatoryComplianceStandards/regulatoryComplianceControls/regulatoryComplianceAssessments",
+     "properties": {
+      "description": "Guest accounts with write permissions on Azure resources should be removed",
+      "state": "Passed",
+      "scope": "Unknown",
+      "passedResources": 0,
+      "failedResources": 0,
+      "skippedResources": 0,
+      "assessmentType": "AssessmentResult",
+      "assessmentDetailsLink": "https://portal.azure.com/#blade/Microsoft_Azure_Security/RecommendationsBlade/assessmentKey/009678ce-adce-4c94-9cc8-cfc2bd0c6a06/initiativeId/CIS-Azure-Foundations-v2.0.0"
+     }
+    },
+    {
+     "id": "/subscriptions/5374e8d3-9703-4a09-ac4a-af6f9f5c013b/providers/Microsoft.Security/regulatoryComplianceStandards/CIS-Azure-Foundations-v2.0.0/regulatoryComplianceControls/1.5/regulatoryComplianceAssessments/422107c6-5b9a-46a6-bb1d-26ef1cc52d65",
+     "name": "422107c6-5b9a-46a6-bb1d-26ef1cc52d65",
+     "type": "Microsoft.Security/regulatoryComplianceStandards/regulatoryComplianceControls/regulatoryComplianceAssessments",
+     "properties": {
+      "description": "Guest accounts with read permissions on Azure resources should be removed",
+      "state": "Passed",
+      "scope": "Unknown",
+      "passedResources": 0,
+      "failedResources": 0,
+      "skippedResources": 0,
+      "assessmentType": "AssessmentResult",
+      "assessmentDetailsLink": "https://portal.azure.com/#blade/Microsoft_Azure_Security/RecommendationsBlade/assessmentKey/422107c6-5b9a-46a6-bb1d-26ef1cc52d65/initiativeId/CIS-Azure-Foundations-v2.0.0"
+     }
+    },
+    {
+     "id": "/subscriptions/5374e8d3-9703-4a09-ac4a-af6f9f5c013b/providers/Microsoft.Security/regulatoryComplianceStandards/CIS-Azure-Foundations-v2.0.0/regulatoryComplianceControls/1.5/regulatoryComplianceAssessments/f2864482-b329-4310-8c06-3cf74fe880c5",
+     "name": "f2864482-b329-4310-8c06-3cf74fe880c5",
+     "type": "Microsoft.Security/regulatoryComplianceStandards/regulatoryComplianceControls/regulatoryComplianceAssessments",
+     "properties": {
+      "description": "Guest accounts with owner permissions on Azure resources should be removed",
+      "state": "Passed",
+      "scope": "Unknown",
+      "passedResources": 0,
+      "failedResources": 0,
+      "skippedResources": 0,
+      "assessmentType": "AssessmentResult",
+      "assessmentDetailsLink": "https://portal.azure.com/#blade/Microsoft_Azure_Security/RecommendationsBlade/assessmentKey/f2864482-b329-4310-8c06-3cf74fe880c5/initiativeId/CIS-Azure-Foundations-v2.0.0"
+     }
+    }
+   ]
+  },
+  {
+   "control": {
+    "id": "/subscriptions/5374e8d3-9703-4a09-ac4a-af6f9f5c013b/providers/Microsoft.Security/regulatoryComplianceStandards/CIS-Azure-Foundations-v2.0.0/regulatoryComplianceControls/2.1.1",
+    "name": "2.1.1",
+    "type": "Microsoft.Security/regulatoryComplianceStandards/regulatoryComplianceControls",
+    "properties": {
+     "description": "Ensure That Microsoft Defender for Servers Is Set to 'On'",
+     "state": "Passed",
+     "passedAssessments": 1,
+     "failedAssessments": 0,
+     "skippedAssessments": 0
+    }
+   },
+   "assessments": [
+    {
+     "id": "/subscriptions/5374e8d3-9703-4a09-ac4a-af6f9f5c013b/providers/Microsoft.Security/regulatoryComplianceStandards/CIS-Azure-Foundations-v2.0.0/regulatoryComplianceControls/2.1.1/regulatoryComplianceAssessments/56a6e81f-7413-4f72-9a1b-aaeeaa87c872",
+     "name": "56a6e81f-7413-4f72-9a1b-aaeeaa87c872",
+     "type": "Microsoft.Security/regulatoryComplianceStandards/regulatoryComplianceControls/regulatoryComplianceAssessments",
+     "properties": {
+      "description": "Microsoft Defender for servers should be enabled",
+      "state": "Passed",
+      "scope": "Unknown",
+      "passedResources": 1,
+      "failedResources": 0,
+      "skippedResources": 0,
+      "assessmentType": "AssessmentResult",
+      "assessmentDetailsLink": "https://portal.azure.com/#blade/Microsoft_Azure_Security/RecommendationsBlade/assessmentKey/56a6e81f-7413-4f72-9a1b-aaeeaa87c872/initiativeId/CIS-Azure-Foundations-v2.0.0"
+     }
+    }
+   ]
+  }
+ ]
+}
